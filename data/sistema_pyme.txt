@@ -1,0 +1,48 @@
+AGS.AI
+├── sistema_pyme/ 
+   ├── run_api.py                      
+   ├── main.py
+   ├── database.py
+   ├── auth.py
+   ├── responsive.py
+   ├── event_system.py
+├── api/
+│   ├── __init__.py
+│   ├── main.py
+│   └── endpoints.py
+├── backup/
+│   ├── __init__.py
+│   └── backup_system.py
+├── notifications/
+│   ├── __init__.py
+│   └── notification_system.py
+├── templates/
+│   ├── __init__.py
+│   ├── email_templates.py
+│   └── report_templates.py         
+├── plugins/
+│   ├── __init__.py
+│   ├── base.py
+│   └── example_plugin.py
+├── workflows/
+│   └── __init__.py
+├── tests/
+│   ├── test_auth.py
+│   ├── test_database.py
+│   └── test_finance.py
+├── docs/
+│   ├── user_manual.md
+│   └── setup_guide.md
+├── modules/
+│   ├── data_import.py
+│   ├── finance.py
+│   ├── crm.py
+│   ├── hr.py
+│   └── inventory.py
+├── utils/
+│   ├── web_scraper.py
+│   ├── data_processor.py          
+│   ├── analytics.py               
+│   └── report_templates.py         
+└── data/
+    └── sistema_pyme.db
